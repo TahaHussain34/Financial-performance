@@ -1,0 +1,16 @@
+Transaction_ID,Project_ID,Category,Amount,Transaction_Date,source_table,reject_reason
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+DUP001,P005,Travel,15000,2026-02-01,Transactions,Exact duplicate row
+NULL01,,Labor,12000,2026-03-01,Transactions,Missing Project_ID
+INVP0,P999,Labor,10000,2026-05-01,Transactions,Project_ID not found in Projects
+INVP1,P999,Labor,10500,2026-05-01,Transactions,Project_ID not found in Projects
+INVP2,P999,Labor,11000,2026-05-01,Transactions,Project_ID not found in Projects
+INVP3,P999,Labor,11500,2026-05-01,Transactions,Project_ID not found in Projects
+INVP4,P999,Labor,12000,2026-05-01,Transactions,Project_ID not found in Projects
