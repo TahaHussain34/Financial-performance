@@ -2,5 +2,5 @@ table,check,severity,rows,action
 Transactions,Exact duplicate rows,REJECTED,9,"Keep first copy, reject the rest"
 Transactions,Missing Project_ID,REJECTED,1,Row rejected
 Transactions,Project_ID not in Projects,REJECTED,5,Row rejected
-Transactions,Misspelled Category,CORRECTED,5,"Mapped to standard value ('Contrct' assumed to be 'Contract', please confirm)"
+Transactions,Misspelled Category,CORRECTED,5,"Mapped to standard value ('Contrct' assumed to be 'Contract')"
 Transactions,Negative Amount,WARNING,1,"Loaded as credit, confirm with finance"
